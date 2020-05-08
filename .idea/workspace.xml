@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b2RHVjktZUpgdILYnrOHeZ1JLd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Notes/tree 树" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\tree 树" />
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\Bit Manipulation 位操作" />
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\String 字符串" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution1 (5)">
+    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.deepFirstSearch.islandPerimeter463.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.deepFirstSearch.islandPerimeter463.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.dynamicProgramming.maxAreaOfIsland695.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.dynamicProgramming.maxAreaOfIsland695.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.dynamicProgramming.surroundedRegions130.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.dynamicProgramming.surroundedRegions130.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.math.checkStraightLine1232.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.math.checkStraightLine1232.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.dynamicProgramming.numberOfIslands200.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.dynamicProgramming.numberOfIslands200.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution1 (5)" />
+        <item itemvalue="Application.Solution1 (1)" />
+        <item itemvalue="Application.Solution1 (4)" />
+        <item itemvalue="Application.Solution1" />
+        <item itemvalue="Application.Solution1 (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="" />
+      <created>1587828114435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587828114435</updated>
+      <workItem from="1587828116354" duration="1845000" />
+      <workItem from="1587872011636" duration="38000" />
+      <workItem from="1587908188885" duration="1215000" />
+      <workItem from="1588258900968" duration="812000" />
+      <workItem from="1588295929182" duration="894000" />
+      <workItem from="1588381871965" duration="616000" />
+      <workItem from="1588557223718" duration="13622000" />
+      <workItem from="1588645269025" duration="17067000" />
+      <workItem from="1588761058180" duration="5981000" />
+      <workItem from="1588818625957" duration="1785000" />
+      <workItem from="1588822549739" duration="1076000" />
+      <workItem from="1588841871497" duration="5713000" />
+      <workItem from="1588902584055" duration="6387000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1588936799742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1588936799742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1588936799742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1588936799742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
+    <state width="1407" height="538" key="GridCell.Tab.1.bottom" timestamp="1588781261222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1407" height="538" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
+    <state width="1407" height="538" key="GridCell.Tab.1.center" timestamp="1588781261222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1407" height="538" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
+    <state width="1407" height="538" key="GridCell.Tab.1.left" timestamp="1588781261222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1407" height="538" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
+    <state width="1407" height="538" key="GridCell.Tab.1.right" timestamp="1588781261222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
+    <state width="1407" height="538" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1588818650428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588818650428" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588902584183">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1471" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588645268627" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588902584183" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587872015227" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/App.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
