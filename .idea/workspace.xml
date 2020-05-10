@@ -4,7 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="" />
+    <list default="true" id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="daily update&#10;update md files">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/graph/findTheTownJudge997/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/App.java" root0="FORCE_HIGHLIGHTING" />
@@ -36,6 +43,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1b2RHVjktZUpgdILYnrOHeZ1JLd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -61,7 +71,7 @@
       <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\String 字符串" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution1 (5)">
+  <component name="RunManager" selected="Application.Solution1 (2)">
     <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ltd.ryantech.deepFirstSearch.islandPerimeter463.Solution1" />
       <module name="leetcode" />
@@ -75,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.dynamicProgramming.maxAreaOfIsland695.Solution1" />
+    <configuration name="Solution1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.graph.findTheTownJudge997.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.dynamicProgramming.maxAreaOfIsland695.*" />
+          <option name="PATTERN" value="ltd.ryantech.graph.findTheTownJudge997.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution1 (2)" />
         <item itemvalue="Application.Solution1 (5)" />
         <item itemvalue="Application.Solution1 (1)" />
         <item itemvalue="Application.Solution1 (4)" />
         <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.Solution1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +169,9 @@
       <workItem from="1588818625957" duration="1785000" />
       <workItem from="1588822549739" duration="1076000" />
       <workItem from="1588841871497" duration="5713000" />
-      <workItem from="1588902584055" duration="6387000" />
+      <workItem from="1588902584055" duration="7330000" />
+      <workItem from="1588991424829" duration="711000" />
+      <workItem from="1589107228649" duration="2601000" />
     </task>
     <servers />
   </component>
@@ -167,29 +179,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1588936799742">
+    <state x="372" y="3" key="CommitChangelistDialog2" timestamp="1588952322897">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="3" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588952322897" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1589123961422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589123961422" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1588936799742">
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1589123961422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589123961422" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1588936799742">
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1589123961422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589123961422" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1588936799742">
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1589123961422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588936799742" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589123961422" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
     <state width="1407" height="538" key="GridCell.Tab.1.bottom" timestamp="1588781261222">
       <screen x="0" y="0" width="1536" height="824" />
@@ -215,11 +231,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588818650428" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588902584183">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1588952329910">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588952329910" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588991423966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1471" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588645268627" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588902584183" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588991423966" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587872015227" />
   </component>
   <component name="XDebuggerManager">
