@@ -5,16 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/floodFill733/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/floodFill733/Solution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/graph/findTheTownJudge997/Solution1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/jerry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/jerry.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/wordPattern290/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/wordPattern290/Solution1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/math/checkStraightLine1232/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/math/checkStraightLine1232/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/TreeNode.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +58,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/App.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/App.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/floodFill733/Solution1.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution2.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -68,7 +101,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Notes/tree 树" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,26 +113,13 @@
       <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\String 字符串" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution1 (3)">
+  <component name="RunManager" selected="Application.Solution1 (1)">
     <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.deepFirstSearch.islandPerimeter463.Solution1" />
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.symmetricTree101.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.deepFirstSearch.islandPerimeter463.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.graph.findTheTownJudge997.Solution1" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ltd.ryantech.graph.findTheTownJudge997.*" />
+          <option name="PATTERN" value="ltd.ryantech.tree.symmetricTree101.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="Solution1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.deepFirstSearch.floodFill733.Solution1" />
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.deepFirstSearch.floodFill733.*" />
+          <option name="PATTERN" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.dynamicProgramming.surroundedRegions130.Solution1" />
+    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.binaryTreeLevelOrderTraversal102.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.dynamicProgramming.surroundedRegions130.*" />
+          <option name="PATTERN" value="ltd.ryantech.tree.binaryTreeLevelOrderTraversal102.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +153,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.math.checkStraightLine1232.Solution1" />
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.Solution2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.math.checkStraightLine1232.*" />
+          <option name="PATTERN" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.Solution3" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution1 (3)" />
-        <item itemvalue="Application.Solution1 (2)" />
-        <item itemvalue="Application.Solution1 (5)" />
         <item itemvalue="Application.Solution1 (1)" />
-        <item itemvalue="Application.Solution1 (4)" />
+        <item itemvalue="Application.Solution3" />
+        <item itemvalue="Application.Solution2 (1)" />
+        <item itemvalue="Application.Solution1 (3)" />
+        <item itemvalue="Application.Solution1" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +217,10 @@
       <workItem from="1589173208238" duration="4000" />
       <workItem from="1589182778954" duration="684000" />
       <workItem from="1589183465684" duration="13000" />
-      <workItem from="1589183494547" duration="5573000" />
+      <workItem from="1589183494547" duration="5594000" />
+      <workItem from="1589247897498" duration="26000" />
+      <workItem from="1589247944161" duration="2047000" />
+      <workItem from="1589349982821" duration="20593000" />
     </task>
     <task id="LOCAL-00001" summary="daily update&#10;update md files">
       <created>1589123971502</created>
@@ -193,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589123971502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="daily update&#10;update md files">
+      <created>1589211314991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589211314991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,68 +253,72 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589201982779" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1589123970533">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1589211313842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589123970533" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1589197133282">
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589211313842" />
+    <state width="1407" height="766" key="GridCell.Tab.0.bottom" timestamp="1589380004866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589197133282" />
+    <state width="1407" height="766" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004866" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1589197133281">
+    <state width="1407" height="766" key="GridCell.Tab.0.center" timestamp="1589380004866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589197133281" />
+    <state width="1407" height="766" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004866" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1589197133281">
+    <state width="1407" height="766" key="GridCell.Tab.0.left" timestamp="1589380004866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589197133281" />
+    <state width="1407" height="766" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004866" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1589197133282">
+    <state width="1407" height="766" key="GridCell.Tab.0.right" timestamp="1589380004866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589197133282" />
+    <state width="1407" height="766" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004866" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1407" height="538" key="GridCell.Tab.1.bottom" timestamp="1588781261222">
+    <state width="1407" height="766" key="GridCell.Tab.1.bottom" timestamp="1589380004867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="538" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
-    <state width="1407" height="538" key="GridCell.Tab.1.center" timestamp="1588781261222">
+    <state width="1407" height="766" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004867" />
+    <state width="1407" height="766" key="GridCell.Tab.1.center" timestamp="1589380004867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="538" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
-    <state width="1407" height="538" key="GridCell.Tab.1.left" timestamp="1588781261222">
+    <state width="1407" height="766" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004867" />
+    <state width="1407" height="766" key="GridCell.Tab.1.left" timestamp="1589380004867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="538" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
-    <state width="1407" height="538" key="GridCell.Tab.1.right" timestamp="1588781261222">
+    <state width="1407" height="766" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004867" />
+    <state width="1407" height="766" key="GridCell.Tab.1.right" timestamp="1589380004867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="538" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588781261222" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1588818650428">
+    <state width="1407" height="766" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589380004867" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1589248085526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1588818650428" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589123975171">
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589248085526" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589211318696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589123975171" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589183494949">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589211318696" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589349982837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1471" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588645268627" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589183494949" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589349982837" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587872015227" />
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589350130539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589350130539" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -288,12 +335,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java</url>
-          <line>37</line>
+          <line>41</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java</url>
-          <line>36</line>
+          <line>42</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -303,5 +350,17 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="list.get(i)" language="JAVA" />
+        <watch expression="list.get(list.size() - i - 1)" language="JAVA" />
+        <watch expression="Objects.equals(list.indexOf(i), list.indexOf(list.size() - i - 1))" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$Solution1__1_.ic" NAME="Solution1 (1) Coverage Results" MODIFIED="1589378594282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ltd.ryantech.tree.symmetricTree101.*</FILTER>
+    </SUITE>
   </component>
 </project>

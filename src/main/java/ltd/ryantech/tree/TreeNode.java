@@ -1,4 +1,4 @@
-package ltd.ryantech.tree.validateBinarySearchTree98;
+package ltd.ryantech.tree;
 
 /**
  * @author jerry

@@ -1,12 +1,18 @@
 package ltd.ryantech.tree.validateBinarySearchTree98;
 
+import ltd.ryantech.tree.TreeNode;
+
 import java.util.Stack;
 
 /**
  * @author jerry
  * @program leetcode
  * @package_name ltd.ryantech.tree.validateBinarySearchTree98
- * @description
+ * @description 验证二叉搜索树
+ * @leetcode_CN_url // https://leetcode-cn.com/problems/validate-binary-search-tree/
+ * @leetcode_US_url // https://leetcode.com/problems/validate-binary-search-tree/
+ * @hard_level Medium
+ * @tag Tree // https://leetcode-cn.com/tag/tree/
  * @create 2020/05/05 15:10
  **/
 
