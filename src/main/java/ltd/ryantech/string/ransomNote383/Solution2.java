@@ -10,7 +10,7 @@ import java.util.HashMap;
  * @leetcode_CN_url // https://leetcode-cn.com/problems/ransom-note/
  * @leetcode_US_url // https://leetcode.com/problems/ransom-note/
  * @hard_level Easy
- * @tag string
+ * @tag string // https://leetcode-cn.com/tag/string/
  * @create 2020/05/04 09:58
  **/
 
@@ -22,7 +22,7 @@ public class Solution2 {
             times[key - 'a']++;
         }
         for (char key : ransomNote.toCharArray()) {
-            if(--times[key -'a'] < 0) {
+            if (--times[key - 'a'] < 0) {
                 return false;
             }
         }

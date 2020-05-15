@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/pathSum112/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumPointsYouCanObtainFromCards1423/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumPointsYouCanObtainFromCards1423/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumSumCircularSubarray918/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/subarraySumEqualsK560/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/string/maximumScoreAfterSplittingAString1422/Solution1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +86,13 @@
       <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\String 字符串" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution1">
+  <component name="RunManager" selected="Application.Solution1 (4)">
     <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.symmetricTree101.Solution1" />
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.subarraySumEqualsK560.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.tree.symmetricTree101.*" />
+          <option name="PATTERN" value="ltd.ryantech.array.subarraySumEqualsK560.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +100,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.pathSum112.Solution1" />
+    <configuration name="Solution1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.string.maximumScoreAfterSplittingAString1422.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.tree.pathSum112.*" />
+          <option name="PATTERN" value="ltd.ryantech.string.maximumScoreAfterSplittingAString1422.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumPointsYouCanObtainFromCards1423.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.array.maximumPointsYouCanObtainFromCards1423.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumSumCircularSubarray918.Solution1" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.array.maximumSumCircularSubarray918.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,37 +140,11 @@
       </method>
     </configuration>
     <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.Solution2" />
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumPointsYouCanObtainFromCards1423.Solution2" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.symmetricTree101.Solution2" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ltd.ryantech.tree.symmetricTree101.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.Solution3" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ltd.ryantech.tree.maximumDepthOfBinaryTree104.*" />
+          <option name="PATTERN" value="ltd.ryantech.array.maximumPointsYouCanObtainFromCards1423.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution1 (4)" />
         <item itemvalue="Application.Solution1 (1)" />
-        <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution2 (1)" />
+        <item itemvalue="Application.Solution1 (3)" />
+        <item itemvalue="Application.Solution1 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,8 @@
       <workItem from="1589247944161" duration="2047000" />
       <workItem from="1589349982821" duration="20593000" />
       <workItem from="1589421062331" duration="3067000" />
-      <workItem from="1589462994595" duration="4260000" />
+      <workItem from="1589462994595" duration="4417000" />
+      <workItem from="1589518100453" duration="8611000" />
     </task>
     <task id="LOCAL-00001" summary="daily update&#10;update md files">
       <created>1589123971502</created>
@@ -209,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589211314991</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="daily update&#10;update md files">
+      <created>1589471604309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589471604309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,67 +236,67 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589201982779" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1589384236826">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1589471602765">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589384236826" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1589471477281">
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589471602765" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom" timestamp="1589555668803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589471477281" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964709" />
+    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589555668803" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1589471477281">
+    <state width="1493" height="236" key="GridCell.Tab.0.center" timestamp="1589555668803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589471477281" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964708" />
+    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589555668803" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1589471477281">
+    <state width="1493" height="236" key="GridCell.Tab.0.left" timestamp="1589555668803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589471477281" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964708" />
+    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589555668803" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1589471477281">
+    <state width="1493" height="236" key="GridCell.Tab.0.right" timestamp="1589555668803">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589471477281" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964708" />
+    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589555668803" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1407" height="766" key="GridCell.Tab.1.bottom" timestamp="1589464906563">
+    <state width="1407" height="766" key="GridCell.Tab.1.bottom" timestamp="1589529240722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589464906563" />
-    <state width="1407" height="766" key="GridCell.Tab.1.center" timestamp="1589464906563">
+    <state width="1407" height="766" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589529240722" />
+    <state width="1407" height="766" key="GridCell.Tab.1.center" timestamp="1589529240722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589464906563" />
-    <state width="1407" height="766" key="GridCell.Tab.1.left" timestamp="1589464906563">
+    <state width="1407" height="766" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589529240722" />
+    <state width="1407" height="766" key="GridCell.Tab.1.left" timestamp="1589529240721">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589464906563" />
-    <state width="1407" height="766" key="GridCell.Tab.1.right" timestamp="1589464906563">
+    <state width="1407" height="766" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589529240721" />
+    <state width="1407" height="766" key="GridCell.Tab.1.right" timestamp="1589529240722">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589464906563" />
+    <state width="1407" height="766" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589529240722" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1589248085526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589248085526" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589384244100">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589471614578">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589384244100" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589462994581">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589471614578" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589518099350">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1471" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588645268627" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589462994581" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589518099350" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587872015227" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589350130539">
       <screen x="0" y="0" width="1536" height="824" />
@@ -325,6 +335,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution1.java</url>
           <line>59</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumSumCircularSubarray918/Solution1.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
