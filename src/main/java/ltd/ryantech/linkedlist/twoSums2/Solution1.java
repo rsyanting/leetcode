@@ -7,8 +7,8 @@ import ltd.ryantech.linkedlist.ListNode;
  * @program leetcode
  * @package_name ltd.ryantech.listnode.twoSums2
  * @description 两数之和的链表版本
- * @leetcode_CN_url https://leetcode-cn.com/problems/add-two-numbers/
- * @leetcode_US_url https://leetcode.com/problems/add-two-numbers/
+ * @leetcode_CN_url // https://leetcode-cn.com/problems/add-two-numbers/
+ * @leetcode_US_url // https://leetcode.com/problems/add-two-numbers/
  * @hard_level Medium
  * @tag listed list ; math
  * @create 2020/04/25 23:37

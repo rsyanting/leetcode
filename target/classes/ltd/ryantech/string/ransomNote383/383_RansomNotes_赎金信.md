@@ -1,0 +1,101 @@
+# 383_RansomNotes_赎金信
+
+## 📌题目详情
+
+[leetcode 题目地址](https://leetcode.com/problems/ransom-note/)
+
+[leetcode-cn 题目地址](https://leetcode-cn.com/problems/ransom-note/)
+
+📗Difficulty：**Easy**	
+
+🎯Tags：
+
++ **[Array](https://leetcode.com/tag/array/)**
++ **[String](https://leetcode.com/tag/string/)**
+
+---
+
+## 📃题目描述：
+
+
+
+给定一个赎金信 (ransom) 字符串和一个杂志(magazine)字符串，判断第一个字符串 ransom 能不能由第二个字符串 magazines 里面的字符构成。如果可以构成，返回 true ；否则返回 false。
+
+(题目说明：为了不暴露赎金信字迹，要从杂志上搜索各个需要的字母，组成单词来表达意思。杂志字符串中的每个字符只能在赎金信字符串中**使用一次**。)
+
+**注意：**
+
+你可以假设两个字符串均只含有小写字母。
+
+**样例：**
+
+```
+canConstruct("a", "b") -> false
+canConstruct("aa", "ab") -> false
+canConstruct("aa", "aab") -> true
+```
+
+
+
+****
+
+## 🏹🎯解题思路
+
+### 哈希表计数
+
+将 ransomNotes ，magazine 中的字母计数保存到 hashmap 中。对 ransomNote 中的字母，检查其在 magazine 中出现的次数，如果出现了任意一个字符数比 magazine 中的少，则返回 false。而方法默认返回 true。
+
+```java
+// 哈希表计数
+public boolean canConstruct(String ransomNote, String magazine) {
+    HashMap<Character, Integer> counter1 = new HashMap<>();
+    for (char key : ransomNote.toCharArray()) {
+        counter1.put(key, counter1.getOrDefault(key, 1) + 1);
+    }
+    HashMap<Character, Integer> counter2 = new HashMap<>();
+    for (char key : magazine.toCharArray()) {
+        counter2.put(key, counter2.getOrDefault(key, 1) + 1);
+    }
+    for (char key : counter1.keySet()) {
+        if (!counter2.containsKey(key)) {
+            return false;
+        }
+        if (counter1.get(key) > counter2.get(key)) {
+            return false;
+        }
+    }
+    return true;
+}
+```
+
+#### 复杂度分析
+
++ 时间复杂度：O(m + n)，m 为 ransomNote 中字符个数，n 为 magazine 中的字符个数。
++ 空间复杂度：O(1)，需要 2 个 hashmap，而每个 hashmap 中的元素个数最大为 26 。
+    + 这里说明，其空间复杂度可以进一步优化。
+
+
+
+### 字符数组计数器
+
+```java
+// 字符数组计数器
+public boolean canConstruct(String ransomNote, String magazine) {
+    int[] times = new int[26];
+    for (char key : magazine.toCharArray()) {
+        times[key - 'a']++;
+    }
+    for (char key : ransomNote.toCharArray()) {
+        if(--times[key -'a'] < 0) {
+            return false;
+        }
+    }
+    return true;
+}
+```
+
+#### 复杂度分析
+
++ 时间复杂度：O(m + n)，m 为 ransomNote 中字符个数，n 为 magazine 中的字符个数。
++ 空间复杂度：O(1)，需要 1 个 int[]，其长度为 26 。
+
