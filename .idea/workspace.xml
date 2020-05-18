@@ -5,8 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea49a4fd-fe35-432f-986f-5045b4b784e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/linkedlist/oddEvenLinkedList328/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/Array 数组/628_MaximumProductOfThreeNumbers_三个数的最大乘积.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/Dynamic Programming 动态规划/152_MaximumProductSubarray_乘积最大子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/Dynamic Programming 动态规划/53_MaximumSubarray_最大子序和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumProductOfThreeNumbers628/628_MaximumProductOfThreeNumbers_三个数的最大乘积.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/152_MaximumProductSubarray_乘积最大子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/twoPointer/subarrayProductLessThanK713/713_SubarrayProductLessThanK_乘积小于K的子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ltd/ryantech/twoPointer/subarrayProductLessThanK713/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/oddEvenLinkedList328/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/reverseLinkedList206/Solution1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/twoPointer/subarrayProductLessThanK713/Solution1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumPointsYouCanObtainFromCards1423/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumPointsYouCanObtainFromCards1423/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumPointsYouCanObtainFromCards1423/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumPointsYouCanObtainFromCards1423/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumSumCircularSubarray918/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/maximumSumCircularSubarray918/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/subarraySumEqualsK560/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/array/subarraySumEqualsK560/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/bitManipulation/numberComplement476/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/bitManipulation/numberComplement476/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/bitManipulation/numberComplement476/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/bitManipulation/numberComplement476/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/floodFill733/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/floodFill733/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/islandPerimeter463/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/islandPerimeter463/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/maxAreaOfIsland695/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/maxAreaOfIsland695/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/uglyNumberTwo264/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/uglyNumberTwo264/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/graph/findTheTownJudge997/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/graph/findTheTownJudge997/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/twoSums1/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/wordPattern290/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/hashmap/wordPattern290/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/reverseNodesInKGroup25/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/reverseNodesInKGroup25/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/swapNodesInPairs24/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/swapNodesInPairs24/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/twoSums2/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/linkedlist/twoSums2/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/math/checkStraightLine1232/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/math/checkStraightLine1232/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/string/maximumScoreAfterSplittingAString1422/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/string/maximumScoreAfterSplittingAString1422/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/string/ransomNote383/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/string/ransomNote383/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/string/ransomNote383/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/string/ransomNote383/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/maximumDepthOfBinaryTree104/Solution3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/pathSum112/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/pathSum112/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/symmetricTree101/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/symmetricTree101/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/symmetricTree101/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/symmetricTree101/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ltd/ryantech/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ltd/ryantech/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/template.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,24 +96,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/linkedlist/swapNodesInPairs24/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/numberOfIslands200/Solution1.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/linkedlist/reverseNodesInKGroup25/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/linkedlist/reverseLinkedList206/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePreorderTraversal144/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/array/maximumProductOfThreeNumbers628/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/App.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution3.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/string/ransomNote383/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/validateBinarySearchTree98/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumSubarray53/Solution2.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/linkedlist/reverseLinkedList206/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/symmetricTree101/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/surroundedRegions130/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeLevelOrderTraversal102/Solution1.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/wordSearch79/Solution1.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/deepFirstSearch/floodFill733/Solution1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreeInorderTraversal94/Solution2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/ltd/ryantech/tree/binaryTreePostorderTraversal145/Solution2.java" root0="SKIP_INSPECTION" />
@@ -63,72 +139,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Notes/tree 树" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Notes/Dynamic Programming 动态规划" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jerry\IdeaProjects\leetcode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\Dynamic Programming 动态规划" />
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\Array 数组" />
       <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\tree 树" />
       <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\Bit Manipulation 位操作" />
       <recent name="C:\Users\jerry\IdeaProjects\leetcode\Notes\String 字符串" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jerry\IdeaProjects\leetcode" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Solution1 (5)">
-    <configuration name="Solution1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.linkedlist.swapNodesInPairs24.Solution1" />
+  <component name="RunManager" selected="Application.Solution3 (1)">
+    <configuration name="Solution1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.twoPointer.subarrayProductLessThanK713.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.linkedlist.swapNodesInPairs24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.linkedlist.reverseLinkedList206.Solution1" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ltd.ryantech.linkedlist.reverseLinkedList206.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumSumCircularSubarray918.Solution1" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ltd.ryantech.array.maximumSumCircularSubarray918.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution1 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.linkedlist.oddEvenLinkedList328.Solution1" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ltd.ryantech.linkedlist.oddEvenLinkedList328.*" />
+          <option name="PATTERN" value="ltd.ryantech.twoPointer.subarrayProductLessThanK713.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +177,50 @@
       </method>
     </configuration>
     <configuration name="Solution1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.linkedlist.reverseNodesInKGroup25.Solution1" />
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumProductOfThreeNumbers628.Solution1" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ltd.ryantech.linkedlist.reverseNodesInKGroup25.*" />
+          <option name="PATTERN" value="ltd.ryantech.array.maximumProductOfThreeNumbers628.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumProductOfThreeNumbers628.Solution2" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.array.maximumProductOfThreeNumbers628.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.array.maximumProductOfThreeNumbers628.Solution3" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.array.maximumProductOfThreeNumbers628.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ltd.ryantech.dynamicProgramming.maximumProductSubarray152.Solution3" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ltd.ryantech.dynamicProgramming.maximumProductSubarray152.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution1 (5)" />
-        <item itemvalue="Application.Solution1 (2)" />
-        <item itemvalue="Application.Solution1 (3)" />
+        <item itemvalue="Application.Solution3 (1)" />
+        <item itemvalue="Application.Solution2 (1)" />
         <item itemvalue="Application.Solution1" />
-        <item itemvalue="Application.Solution1 (4)" />
+        <item itemvalue="Application.Solution1 (1)" />
+        <item itemvalue="Application.Solution3" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +274,8 @@
       <workItem from="1589462994595" duration="4417000" />
       <workItem from="1589518100453" duration="8632000" />
       <workItem from="1589595113583" duration="11199000" />
-      <workItem from="1589726992280" duration="3216000" />
+      <workItem from="1589726992280" duration="3246000" />
+      <workItem from="1589781662044" duration="19406000" />
     </task>
     <task id="LOCAL-00001" summary="daily update&#10;update md files">
       <created>1589123971502</created>
@@ -232,15 +312,34 @@
       <option name="project" value="LOCAL" />
       <updated>1589644239442</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="daily update&#10;update md files">
+      <created>1589730749376</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589730749376</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="daily update&#10;update md files" />
     <option name="LAST_COMMIT_MESSAGE" value="daily update&#10;update md files" />
   </component>
@@ -249,67 +348,71 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589201982779" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1589644238041">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1589730748410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589644238041" />
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom" timestamp="1589729533082">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589730748410" />
+    <state x="-1827" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1589810770338">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964709" />
-    <state width="1493" height="273" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589729533082" />
+    <state x="-1827" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589810770338" />
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom" timestamp="1589811088360">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="242" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589811088360" />
+    <state width="1407" height="766" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909432" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="273" key="GridCell.Tab.0.center" timestamp="1589729533082">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center" timestamp="1589811088360">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964708" />
-    <state width="1493" height="273" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589729533082" />
+    <state width="1493" height="242" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589811088360" />
+    <state width="1407" height="766" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909432" />
     <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="273" key="GridCell.Tab.0.left" timestamp="1589729533082">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left" timestamp="1589811088360">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964708" />
-    <state width="1493" height="273" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589729533082" />
+    <state width="1493" height="242" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589811088360" />
+    <state width="1407" height="766" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909432" />
     <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1493" height="273" key="GridCell.Tab.0.right" timestamp="1589729533082">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right" timestamp="1589811088360">
+      <screen x="-1920" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="236" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589527964708" />
-    <state width="1493" height="273" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589729533082" />
+    <state width="1493" height="242" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1589811088360" />
+    <state width="1407" height="766" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909432" />
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587829962237" />
-    <state width="1407" height="766" key="GridCell.Tab.1.bottom" timestamp="1589728593690">
+    <state width="1407" height="766" key="GridCell.Tab.1.bottom" timestamp="1589809909433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589728593690" />
-    <state width="1407" height="766" key="GridCell.Tab.1.center" timestamp="1589728593690">
+    <state width="1407" height="766" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909433" />
+    <state width="1407" height="766" key="GridCell.Tab.1.center" timestamp="1589809909433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589728593690" />
-    <state width="1407" height="766" key="GridCell.Tab.1.left" timestamp="1589728593690">
+    <state width="1407" height="766" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909433" />
+    <state width="1407" height="766" key="GridCell.Tab.1.left" timestamp="1589809909433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589728593690" />
-    <state width="1407" height="766" key="GridCell.Tab.1.right" timestamp="1589728593690">
+    <state width="1407" height="766" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909433" />
+    <state width="1407" height="766" key="GridCell.Tab.1.right" timestamp="1589809909433">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588608246293" />
-    <state width="1407" height="766" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589728593690" />
+    <state width="1407" height="766" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589809909433" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1589248085526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589248085526" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589644243037">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1589730752678">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589644243037" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589727003566">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589730752678" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589781663567">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1471" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@-1920.0.1536.824" timestamp="1588645268627" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589727003566" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1536.824@0.0.1536.824" timestamp="1589781663567" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587872015227" />
     <state x="562" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589350130539">
       <screen x="0" y="0" width="1536" height="824" />
@@ -358,6 +461,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/linkedlist/swapNodesInPairs24/Solution1.java</url>
           <line>24</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution1.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution2.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ltd/ryantech/dynamicProgramming/maximumProductSubarray152/Solution3.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

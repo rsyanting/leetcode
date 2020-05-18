@@ -28,7 +28,7 @@
 + **[String](https://leetcode.com/tag/string/)**
 + **[Tree](https://leetcode.com/tag/tree/)**
 + **[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)** 
-+ [depth-first-search](https://leetcode.com/tag/depth-first-search/)
++ [Depth-First-Search](https://leetcode.com/tag/depth-first-search/)
 
 ---
 
