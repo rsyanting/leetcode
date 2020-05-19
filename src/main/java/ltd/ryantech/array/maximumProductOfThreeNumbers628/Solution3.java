@@ -1,7 +1,5 @@
 package ltd.ryantech.array.maximumProductOfThreeNumbers628;
 
-import sun.security.util.Length;
-
 import java.util.Arrays;
 
 /**

@@ -1,0 +1,151 @@
+
+
+# 234_PalindromeLinkedLlist_回文链表
+
+## 📌题目详情
+
+[leetcode 题目地址](https://leetcode.com/problems/palindrome-linked-list/)
+
+[leetcode-cn 题目地址](https://leetcode-cn.com/problems/palindrome-linked-list/)
+
+📗Difficulty：**Easy**	
+
+🎯Tags：
+
++ **[Linked List](https://leetcode.com/tag/linked-list/)**
++ **[Two Pointers](https://leetcode.com/tag/two-pointers/)** 
+
+---
+
+## 📃题目描述：
+
+ 请判断一个链表是否为回文链表。 
+
+**样例 1：**
+
+```
+输入: 1->2
+输出: false
+```
+
+
+
+**样例 2：**
+
+```
+输入: 1->2->2->1
+输出: true
+```
+
+**进阶：**
+
++  你能否用 `O(n)` 时间复杂度和 `O(1)` 空间复杂度解决此题？ 
+
+****
+
+## 🏹🎯解题思路
+
+### 双指针策略 翻转链表
+
+翻转 “中轴点” 左边的节点，即翻转前半部分链表，然后和后半部分链表进行逐个值的比较。
+
+对前半部分链表的翻转方式，可见：[206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+
+为了确定中轴点，可以使用快慢链表的策略。注意这里的 fast 和 slow 指针的选定，非常具有技巧性。
+
+如果是 `fast = slow = head` 的选定将不会有规律可循……需要特判有 2 个节点的情况。所以这里不做讨论，但是提出这个注意点……因为已经翻车一次了。
+
+然后就是判断是否为回文即可，可以参考：[125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+
+#### 代码实现
+
+```java
+public boolean isPalindrome(ListNode head) {
+    if (head == null || head.next == null) {
+        return true;
+    }
+    ListNode dummyHead = new ListNode(-1);
+    dummyHead.next = head;
+    ListNode slow = head;
+    ListNode fast = head.next; // if 特判 否则会抛出 null 指针异常
+    ListNode pre = null;
+    ListNode tmp = null;
+    // 结束 while 循环后
+    // 节点数为奇数，slow 位于 前半部分链表的尾部的后一个，即中轴点，fast 等于 null
+    // 节点数为偶数，slow 位于 前半部分链表的尾部，fast.next 等于 null
+    // 边移动快慢指针，边反转 前半部分链表
+    while (fast != null && fast.next != null) {
+        pre = slow;
+        // 移动快慢指针
+        fast = fast.next.next;
+        slow = slow.next;
+        // 反转链表
+        pre.next = tmp;
+        tmp = pre;
+    }
+    ListNode endHead = slow.next;
+    // 为下面的 slow.next 正确判断，将整个链表 “断开” 来
+    slow.next = pre;
+    ListNode frontHead = (fast == null) ? slow.next : slow;
+    // 此时前半部分 和 后半部分 长度是相等的
+    while (frontHead != null) {
+        if (frontHead.val != endHead.val) {
+            return false;
+        }
+        frontHead = frontHead.next;
+        endHead = endHead.next;
+    }
+    return true;
+}
+```
+
+
+
+#### 复杂度分析
+
++ 时间复杂度：`O(n/2) + O(n/2)` 。
++ 空间复杂度：`O(1)` 。
+
+## 💡总结：
+
+#### [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+
+> 给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
+>
+> **说明：**本题中，我们将空字符串定义为有效的回文串。
+>
+> ```
+> 样例 1：
+> 输入: "A man, a plan, a canal: Panama"
+> 输出: true
+> ```
+>
+> ```
+> 样例 2：
+> 输入: "race a car"
+> 输出: false
+> ```
+
+
+
+#### [680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/)
+
+>  给定一个非空字符串 `s`，**最多**删除一个字符。判断是否能成为回文字符串。 
+>
+> ```
+> 示例 1：
+> 输入: "aba"
+> 输出: True
+> ```
+>
+> ```
+> 示例 2：
+> 输入: "abca"
+> 输出: True
+> 解释: 你可以删除c字符。
+> ```
+>
+> 注意： 字符串只包含从 `a-z` 的小写字母。字符串的最大长度是 50000。 
+
+
+

@@ -1,0 +1,134 @@
+
+
+# 680_ValidPalindrome-ii_验证回文字符串2
+
+## 📌题目详情
+
+[leetcode 题目地址](https://leetcode.com/problems/valid-palindrome-ii/)
+
+[leetcode-cn 题目地址](https://leetcode-cn.com/problems/valid-palindrome-ii/)
+
+📗Difficulty：**Easy**	
+
+🎯Tags：
+
++ **[Two Pointers](https://leetcode.com/tag/two-pointers/)** 
++ **[String](https://leetcode.com/tag/string/)**
+
+---
+
+## 📃题目描述：
+
+给定一个非空字符串 `s`，**最多**删除一个字符。判断是否能成为回文字符串。 
+
+**样例 1：**
+
+```
+输入: "aba"
+输出: True
+```
+
+
+
+**样例 2：**
+
+```
+输入: "abca"
+输出: True
+解释: 你可以删除c字符。
+```
+
+**注意：**
+
++ 字符串只包含从 `a-z` 的小写字母。字符串的最大长度是 `50000`。 
+
+****
+
+## 🏹🎯解题思路
+
+### 双指针策略
+
+对于一个给定的串，从 `front` 头部 和 `end` 尾部开始比较，如果遇到某次比较，不满足指针位置字符相等，那么“删除”`front` 位置元素或者 `end` 位置元素后，再进行是否是回文串的判断即可。
+
+而不一定需要真正去删除这个“非法”元素，只需要移动指针即可。
+
+```java
+public boolean validPalindrome(String s) {
+    int front = 0;
+    int end = s.length() - 1;
+    // < 符号，中间一个字符不影响回文与否
+    while (front < end) {
+        if (s.charAt(front) != s.charAt(end)) {
+            return validPalindromeHelper(s, front + 1, end) || validPalindromeHelper(s, front, end - 1);
+        }
+        front++;
+        end--;
+    }
+    return true;
+}
+
+private boolean validPalindromeHelper(String s, int front, int end) {
+    while (front < end) {
+        if (s.charAt(front) != s.charAt(end)) {
+            return false;
+        }
+        front++;
+        end--;
+    }
+    return true;
+}
+```
+
+
+
+#### 复杂度分析
+
++ 时间复杂度：`O(n)` 。最多遍历 2 次链表。
++ 空间复杂度：`O(1)` 。
+
+
+
+## 💡总结：
+
+### 相似问题
+
+#### [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+
+> 给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
+>
+> **说明：**本题中，我们将空字符串定义为有效的回文串。
+>
+> ```
+> 样例 1：
+> 输入: "A man, a plan, a canal: Panama"
+> 输出: true
+> ```
+>
+> ```
+> 样例 2：
+> 输入: "race a car"
+> 输出: false
+> ```
+
+
+
+#### [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+
+>  请判断一个链表是否为回文链表。 
+>
+> ```
+> 示例 1：
+> 输入: 1->2
+> 输出: false
+> ```
+>
+> ```
+> 示例 2：
+> 输入: 1->2->2->1
+> 输出: true
+> ```
+
+
+
+
+
