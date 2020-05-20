@@ -1,7 +1,5 @@
 package ltd.ryantech.string.validPalindrome125;
 
-import javax.xml.stream.events.Characters;
-
 /**
  * @author jerry
  * @program leetcode
