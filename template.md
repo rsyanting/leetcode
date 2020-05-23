@@ -27,6 +27,7 @@
 + **[Array](https://leetcode.com/tag/array/)**
 + **[String](https://leetcode.com/tag/string/)**
 + **[Tree](https://leetcode.com/tag/tree/)**
++ **[Heap](https://leetcode-cn.com/tag/heap/)**
 + **[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)** 
 + [Depth-First-Search](https://leetcode.com/tag/depth-first-search/)
 
