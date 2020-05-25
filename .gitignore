@@ -3,5 +3,5 @@
 target/*
 .idea/*
 .settings/*
-./.classpath
-./.project
+/.classpath
+/.project
