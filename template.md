@@ -29,11 +29,12 @@
 + **[Tree](https://leetcode.com/tag/tree/)**
 + **[Heap](https://leetcode-cn.com/tag/heap/)**
 + **[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)** 
-+ [Depth-First-Search](https://leetcode.com/tag/depth-first-search/)
++ [Depth First Search](https://leetcode.com/tag/depth-first-search/)
++ **[Binary Search](https://leetcode-cn.com/tag/binary-search/)**
 
 ---
 
-## 📃题目描述：
+## 📃题目描述
 
 
 
@@ -72,7 +73,7 @@
 
 
 
-## 💡总结：
+## 💡总结
 
 
 

@@ -51,8 +51,8 @@ public class LRUCache {
         if (this.hashMap.containsKey(key)) {
             Node node = this.hashMap.get(key);
             this.remove(node);
-            node.value = value;
             this.addFirst(node);
+            node.value = value;
         } else {
             Node node = new Node(key, value);
             if (this.lruSize < this.maxSize) {
@@ -60,7 +60,9 @@ public class LRUCache {
                 this.hashMap.put(key, node);
                 this.lruSize++;
             } else {
-                this.removeLast();
+                Node lastNode = this.getLast();
+                this.remove(lastNode);
+                this.hashMap.remove(lastNode.key); // 移除在 hashmap 的映射
                 this.addFirst(node);
                 this.hashMap.put(key, node);
             }
@@ -69,8 +71,8 @@ public class LRUCache {
 
     // 添加一个 Node 到双向链表头
     public void addFirst(Node node) {
-        node.pre = this.dummyHead;
         node.next = this.dummyHead.next;
+        node.pre = this.dummyHead;
         this.dummyHead.next.pre = node;
         this.dummyHead.next = node;
     }
