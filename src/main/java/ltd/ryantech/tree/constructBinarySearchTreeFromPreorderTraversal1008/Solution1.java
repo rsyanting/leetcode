@@ -16,6 +16,7 @@ import ltd.ryantech.tree.TreeNode;
 
 public class Solution1 {
     public TreeNode bstFromPreorder(int[] preorder) {
+        
         return null;
     }
 
