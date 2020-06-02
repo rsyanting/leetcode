@@ -49,9 +49,11 @@
 
 ### 递归算法
 
-
+二叉树的三种遍历顺序图示。
 
 ![三种遍历的图示](https://assets.ryantech.ltd/ab103822e75b5b15c615b68560cb2416.jpg)
+
+中序遍历，就是对非空节点，首先访问其左子树，再访问其根节点，最后访问其右子树。这个一个递归的概念。所以使用递归的代码很容易描述其过程。
 
 
 
@@ -85,30 +87,29 @@ public class Solution1 {
 
 
 
-
-
 #### 复杂度分析
 
-+ 时间复杂度： `O(1)`    `O(log n)`      `O(n)`      `O(n log n)`
-+ 空间复杂度：`O(1)`    `O(log n)`     `O(n)`
++ 时间复杂度： `O(n)` 。每个节点访问一次。
++ 空间复杂度：  `O(n)` 。最坏的情况下，即树完全退化为单链表的情况下。
 
 
 
+### 迭代算法，利用栈辅助
+
+可以看出一个特点，如果一个树其根节点不为空，那么 `中序遍历` 的节点顺序，**第一个是这棵树最左边的叶子节点**，然后逐层向上访问“根节点”，和右子树。
+
+借助栈的 `后进先出 FILO` 特性，将根节点的左子树的左子树，依次压入栈中，再逐个弹出。对于右子树，也做相同的处理。
 
 
-### 代码实现
+
+#### 代码实现
 
 ```java
 public class Solution2 {
     // 非递归 中序遍历二叉树
     // 迭代法，使用栈作为辅助
-    private List<Integer> res = new LinkedList<>();
-
     public List<Integer> inorderTraversal(TreeNode root) {
-        if (root == null) {
-            // 如果 root 为空，则返回 res, res 中没有任何元素
-            return res;
-        }
+        private List<Integer> res = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();
         while (root != null || !stack.isEmpty()) {
             // 先走到左子树的叶子节点
@@ -123,6 +124,7 @@ public class Solution2 {
             // 处理右子树
             root = root.right;
         }
+        // 如果 root 为空，则返回 res, res 中没有任何元素
         return res;
     }
 
@@ -138,16 +140,14 @@ public class Solution2 {
 }
 ```
 
-
+![三种遍历的图示](https://assets.ryantech.ltd/ab103822e75b5b15c615b68560cb2416.jpg)
 
 
 
 #### 复杂度分析
 
-+ 时间复杂度： `O(1)`    `O(log n)`      `O(n)`      `O(n log n)`
-+ 空间复杂度：`O(1)`    `O(log n)`     `O(n)`
-
-
++ 时间复杂度： `O(n)` 。每个节点访问一次。
++ 空间复杂度： `O(n)` 。最坏的情况下，即树完全退化为单链表的情况下。
 
 
 

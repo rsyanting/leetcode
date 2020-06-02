@@ -28,8 +28,10 @@
 + **[String](https://leetcode.com/tag/string/)**
 + **[Tree](https://leetcode.com/tag/tree/)**
 + **[Heap](https://leetcode-cn.com/tag/heap/)**
++ **[Queue](https://leetcode-cn.com/tag/queue/)**
 + **[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)** 
 + [Depth First Search](https://leetcode.com/tag/depth-first-search/)
++ **[Breadth First Search](https://leetcode-cn.com/tag/breadth-first-search/)**
 + **[Binary Search](https://leetcode-cn.com/tag/binary-search/)**
 
 ---

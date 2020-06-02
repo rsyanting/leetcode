@@ -49,7 +49,9 @@
 
 ### 递归算法
 
+二叉树的三种遍历顺序图示。
 
+![三种遍历的图示](https://assets.ryantech.ltd/ab103822e75b5b15c615b68560cb2416.jpg)
 
 #### 代码实现
 
@@ -84,12 +86,14 @@ public class Solution1 {
 
 #### 复杂度分析
 
-+ 时间复杂度： `O(1)`    `O(log n)`      `O(n)`      `O(n log n)`
-+ 空间复杂度：`O(1)`    `O(log n)`     `O(n)`
++ 时间复杂度： `O(n)` 。每个节点访问一次。
++ 空间复杂度：  `O(n)` 。最坏的情况下，即树完全退化为单链表的情况下。
 
 
 
 ### 迭代算法
+
+> 以下解答摘抄于 [leetcode-cn](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) 用户 [windliang 的题解](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--34/)。感谢其的精妙和完善解答，感谢~
 
 
 

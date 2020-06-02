@@ -15,8 +15,35 @@ import ltd.ryantech.tree.TreeNode;
  **/
 
 public class Solution1 {
+    //
     public TreeNode bstFromPreorder(int[] preorder) {
-        
+        int rootIdx = preorder[0];
+        int leftBegin = 1;
+        int rightBegin = 1;
+        TreeNode root = new TreeNode(preorder[rootIdx]);
+        if (preorder.length == 1) {
+            return root;
+        } else {
+            // 有左子树的情况
+            if (preorder[leftBegin] < preorder[rootIdx]) {
+                int leftEnd = leftBegin;
+                while (leftEnd < preorder.length && preorder[leftEnd] < preorder[rootIdx]) {
+                    leftEnd++;
+                }
+                // 无左子树的情况
+            } else if (preorder[leftBegin] > preorder[rootIdx]) {
+                rightBegin = leftBegin;
+                int rightEnd = preorder.length - 1;
+            }
+        }
+        TreeNode left = helper();
+        TreeNode right = helper();
+        root.left = left;
+        root.right = right;
+        return root;
+    }
+
+    public TreeNode helper() {
         return null;
     }
 
