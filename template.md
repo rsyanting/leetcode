@@ -14,24 +14,24 @@
 
 🎯Tags：
 
-+ **[Linked List](https://leetcode.com/tag/linked-list/)**
-+ **[Two Pointers](https://leetcode.com/tag/two-pointers/)** 
-+ **[HashTable](https://leetcode.com/tag/hash-table/)** 
-+ **[Dynamic Programming](https://leetcode.com/tag/dynamic-programming/)**
-+ **[Math](https://leetcode.com/tag/math/)**
-+ **[String](https://leetcode.com/tag/string/)**
-+ **[Greedy](https://leetcode.com/tag/greedy/)**
-+ **[Sort](https://leetcode.com/tag/sort/)**
-+ **[Recursion](https://leetcode.com/tag/recursion/)**
-+ **[Minimax](https://leetcode.com/tag/minimax/)**
-+ **[Array](https://leetcode.com/tag/array/)**
-+ **[String](https://leetcode.com/tag/string/)**
-+ **[Tree](https://leetcode.com/tag/tree/)**
++ **[Linked List](https://leetcode-cn.com/tag/linked-list/)**
++ **[Two Pointers](https://leetcode-cn.com/tag/two-pointers/)** 
++ **[HashTable](https://leetcode-cn.com/tag/hash-table/)** 
++ **[Dynamic Programming](https://leetcode-cn.com/tag/dynamic-programming/)**
++ **[Math](https://leetcode-cn.com/tag/math/)**
++ **[String](https://leetcode-cn.com/tag/string/)**
++ **[Greedy](https://leetcode-cn.com/tag/greedy/)**
++ **[Sort](https://leetcode-cn.com/tag/sort/)**
++ **[Recursion](https://leetcode-cn.com/tag/recursion/)**
++ **[Minimax](https://leetcode-cn.com/tag/minimax/)**
++ **[Array](https://leetcode-cn.com/tag/array/)**
++ **[String](https://leetcode-cn.com/tag/string/)**
++ **[Tree](https://leetcode-cn.com/tag/tree/)**
 + **[Graph](https://leetcode-cn.com/tag/graph/)**
 + **[Heap](https://leetcode-cn.com/tag/heap/)**
 + **[Queue](https://leetcode-cn.com/tag/queue/)**
-+ **[Bit Manipulation](https://leetcode.com/tag/bit-manipulation/)** 
-+ [Depth First Search](https://leetcode.com/tag/depth-first-search/)
++ **[Bit Manipulation](https://leetcode-cn.com/tag/bit-manipulation/)** 
++ **[Depth First Search](https://leetcode-cn.com/tag/depth-first-search/)**
 + **[Breadth First Search](https://leetcode-cn.com/tag/breadth-first-search/)**
 + **[Binary Search](https://leetcode-cn.com/tag/binary-search/)**
 
@@ -71,8 +71,8 @@
 
 #### 复杂度分析
 
-+ 时间复杂度： `O(1)`    `O(log n)`      `O(n)`      `O(n log n)`
-+ 空间复杂度：`O(1)`    `O(log n)`     `O(n)`
++ 时间复杂度： `O(1)`    `O(log n)`      `O(n)`      `O(n log n)`  `O(n ^ 2)`。
++ 空间复杂度：`O(1)`    `O(log n)`     `O(n)` 。
 
 
 
