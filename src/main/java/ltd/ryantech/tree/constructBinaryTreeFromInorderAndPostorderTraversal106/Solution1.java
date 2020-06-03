@@ -3,6 +3,7 @@ package ltd.ryantech.tree.constructBinaryTreeFromInorderAndPostorderTraversal106
 import ltd.ryantech.tree.TreeNode;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author jerry
@@ -23,14 +24,14 @@ public class Solution1 {
         }
         int inLen = inorder.length;
         int poLen = postorder.length;
-        HashMap<Integer, Integer> inorderMap = new HashMap<>();
+        Map<Integer, Integer> inorderMap = new HashMap<>();
         for (int i = 0; i < inorder.length; i++) {
             inorderMap.put(inorder[i], i);
         }
         return buildTree(inorder, 0, inLen - 1, postorder, 0, poLen - 1, inorderMap);
     }
 
-    public TreeNode buildTree(int[] inorder, int inLeft, int inRight, int[] postorder, int poLeft, int poRight, HashMap<Integer, Integer> inorderMap) {
+    public TreeNode buildTree(int[] inorder, int inLeft, int inRight, int[] postorder, int poLeft, int poRight, Map<Integer, Integer> inorderMap) {
         if (inLeft > inRight || poLeft > poRight) {
             return null;
         }
@@ -38,14 +39,12 @@ public class Solution1 {
         int rootIndex = inorderMap.get(postorder[poRight]);
         TreeNode root = new TreeNode(inorder[rootIndex]);
         // 左子树节点数
-        int leftNodes = (rootIndex - 1) - inLeft;
+        int leftNodes = rootIndex - inLeft;
         // 右子树节点数
-        int rightNodes = inRight - (rootIndex + 1);
-        // 左子树在 inorder 中的区间为 [inLeft, inLeft + leftNodes]
-        root.left = buildTree(inorder, inLeft, inLeft + leftNodes, postorder, poLeft, poLeft + leftNodes, inorderMap);
-        root.right = buildTree(inorder, rootIndex + 1, rootIndex + 1 + rightNodes, postorder, poRight - 1 - rightNodes, poRight - 1, inorderMap);
-//        root.left = buildTree(inorder, inLeft, rootIndex - 1, postorder, poLeft, poRight - 1 - (inRight - rootIndex), inorderMap);
-//        root.right = buildTree(inorder, rootIndex + 1, inRight, postorder, poRight - (inRight - rootIndex), poRight - 1, inorderMap);
+        int rightNodes = inRight - rootIndex;
+        // 左子树在 inorder 中的区间为 [inLeft, inLeft + leftNodes - 1]
+        root.left = buildTree(inorder, inLeft, inLeft + leftNodes - 1, postorder, poLeft, poRight - rightNodes - 1, inorderMap);
+        root.right = buildTree(inorder, rootIndex + 1, inRight, postorder, poRight - 1 - rightNodes, poRight - 1, inorderMap);
         return root;
     }
 

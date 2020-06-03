@@ -11,11 +11,11 @@ import ltd.ryantech.tree.TreeNode;
  * @leetcode_US_url // https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
  * @hard_level Medium
  * @tag Tree // https://leetcode-cn.com/tag/tree/
- * @create 2020/05/24 16:06
+ * @create 2020/06/03 15:24
  **/
 
-public class Solution1 {
-    // 分治思想
+public class Solution2 {
+    // 分治思想 + 两分优化
     public TreeNode bstFromPreorder(int[] preorder) {
         int length = preorder.length;
         if (length == 0) {
@@ -30,18 +30,26 @@ public class Solution1 {
             return null;
         }
         TreeNode root = new TreeNode(preorder[left]);
-        int pivot = left;
+        int leftPoint = left;
+        int rightPoint = right;
         // 找到“谷底”
-        while (pivot + 1 <= right && preorder[pivot + 1] < preorder[left]) {
-            pivot++;
+        // 重点逻辑：在区间 [left, right] 里找最后一个小于等于 preorder[left] 的下标
+        // 注意这里设置区间的左边界为 left ，不能是 left + 1
+        while (leftPoint < rightPoint) {
+            int midPoint = leftPoint + (rightPoint - leftPoint + 1) / 2;
+            if (preorder[midPoint] < preorder[left]) {
+                leftPoint = midPoint;
+            } else {
+                rightPoint = midPoint - 1;
+            }
         }
-        root.left = buildBST(preorder, left + 1, pivot);
-        root.right = buildBST(preorder, pivot + 1, right);
+        root.left = buildBST(preorder, left + 1, leftPoint);
+        root.right = buildBST(preorder, leftPoint + 1, right);
         return root;
     }
 
     public static void main(String[] args) {
         int[] preorder = {8, 5, 1, 7, 10, 12};
-        TreeNode root = new Solution1().bstFromPreorder(preorder);
+        TreeNode root = new Solution2().bstFromPreorder(preorder);
     }
 }

@@ -27,10 +27,9 @@ public class Solution1 {
         for (int i = 0; i < length; i++) {
             indexMap.put(inorder[i], i);
         }
-        TreeNode root = buildTree(preorder, 0, length - 1,
+        return buildTree(preorder, 0, length - 1,
                 inorder, 0, length - 1,
                 indexMap);
-        return root;
     }
 
     public TreeNode buildTree(int[] preorder, int preorderStart, int preorderEnd,
