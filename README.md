@@ -22,11 +22,11 @@
 
 ### [Array 数组](https://leetcode-cn.com/tag/array/)
 
-|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 |          关键词          |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: | :----------------------: |
-| [628 . 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [628 . 三个数的最大乘积](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/628_MaximumProductOfThreeNumbers_%E4%B8%89%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF.md) | **Easy** | 分情况讨论；多个数字交换 |
-|                                                              |                                                              |          |                          |
-|                                                              |                                                              |          |                          |
+|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    |  难度评级  |          关键词          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :----------------------: |
+| [628 . 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [628 . 三个数的最大乘积](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/628_MaximumProductOfThreeNumbers_%E4%B8%89%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF.md) |  **Easy**  | 分情况讨论；多个数字交换 |
+| [238 . 除自身以外的数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [238 . 除自身以外的数组的乘积](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/238_ProductOfArrayExceptSelf_%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E7%9A%84%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF.md) | **Medium** |      前缀积；后缀积      |
+|                                                              |                                                              |            |                          |
 
 
 
@@ -75,6 +75,11 @@
 | [105 . 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [105 . 从前序与中序遍历序列构造二叉树](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/105_ConstructBinaryTreeFromPreorderAndInorderTraversal_%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md) | **Medium** |              |
 | [106 . 从中序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [106 . 从中序和后序遍历构造二叉树](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/106_ConstructBinaryTreeFromInorderAndPostorderTraversal_%E4%BB%8E%E4%B8%AD%E5%BA%8F%E5%92%8C%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md) | **Medium** |              |
 | [1008 . 先序遍历二叉搜索树构造二叉树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [1008 . 先序遍历二叉搜索树构造二叉树](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/1008_ConstructBinarySearchTreeFromPreorderTraversal_%E5%85%88%E5%BA%8F%E9%81%8D%E5%8E%86%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md) | **Medium** |              |
+| [101 . 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [101 . 对称二叉树](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/101_SymmetricTree_%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |  **Easy**  |   DFS；BFS   |
+| [104 . 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [104 . 二叉树的最大深度](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/104_MaximumDepthOfBinaryTree_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) |  **Easy**  |   DFS；BFS   |
+| [112 . 路径总和](https://leetcode-cn.com/problems/path-sum/) | [112 . 路径总和](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/112_PathSum_%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.md) |  **Easy**  |   DFS；BFS   |
+|                                                              |                                                              |            |              |
+|                                                              |                                                              |            |              |
 
 
 
