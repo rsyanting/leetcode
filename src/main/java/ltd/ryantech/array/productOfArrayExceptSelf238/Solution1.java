@@ -21,7 +21,7 @@ public class Solution1 {
             t = t * nums[i];
         }
         t = 1;
-         for (int i = nums.length - 1; i >= 0; i--) {
+        for (int i = nums.length - 1; i >= 0; i--) {
             res[i] = t * res[i];
             t = t * nums[i];
         }

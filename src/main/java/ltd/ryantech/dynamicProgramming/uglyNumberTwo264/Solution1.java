@@ -17,6 +17,7 @@ public class Solution1 {
 
         return -1;
     }
+
     public static void main(String[] args) {
         System.out.println(new Solution1().nthUglyNumber(10));
     }

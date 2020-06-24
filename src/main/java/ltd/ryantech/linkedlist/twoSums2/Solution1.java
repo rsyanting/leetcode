@@ -41,7 +41,7 @@ public class Solution1 {
         l2.next = new ListNode(6);
         l2.next.next = new ListNode(4);
         ListNode sums = new ListNode(0);
-        sums.next = addTwoNumbers(l1,l2);
+        sums.next = addTwoNumbers(l1, l2);
         while (sums.next != null) {
             sums = sums.next;
             System.out.print(sums.val);

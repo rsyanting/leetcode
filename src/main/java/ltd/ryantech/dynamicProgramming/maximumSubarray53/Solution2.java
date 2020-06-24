@@ -20,9 +20,9 @@ public class Solution2 {
         }
 
         int n = nums.length;
-        int prev = nums[0];
-        int cur = nums[0];
-        int maxSum = nums[0];
+        int prev = nums[0]; // 保存当前的最优值，下轮循环变为上一个最优值，来判断是不是要加入 上轮的最优值
+        int cur = nums[0]; // 当前可取的最优值
+        int maxSum = nums[0]; // 最终要输出的最大值
         if (n > 1) {
             for (int i = 1; i < n; i++) {
                 cur = nums[i] + (Math.max(prev, 0));

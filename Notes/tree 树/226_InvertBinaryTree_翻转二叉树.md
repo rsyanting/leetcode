@@ -1,6 +1,6 @@
 
 
-# 226_InvertBinaryTree_翻转链表
+# 226_InvertBinaryTree_翻转二叉树
 
 ## 📌题目详情
 
@@ -81,6 +81,44 @@ public TreeNode invertTree(TreeNode root) {
 + 空间复杂度： `O(n)` 。最坏情况下复杂度为 `O(n)` ，此时树完全退化为单链表。平均情况下为 `O(n)` 。
 
 
+
+### 迭代法——使用 栈/队列 辅助操作
+
+
+
+```java
+public TreeNode invertTree(TreeNode root) {
+    if (root == null) {
+        return null;
+    }
+    Deque<TreeNode> deque = new LinkedList<>();
+    deque.offerLast(root);
+    while (!deque.isEmpty()) {
+        TreeNode cur = deque.pollFirst(); // 队列
+        //            TreeNode cur = deque.pollLast(); // 栈
+        if (cur.left != null) {
+            deque.offerLast(cur.left);
+        }
+        if (cur.right != null) {
+            deque.offerLast(cur.right);
+        }
+        // 交换
+        TreeNode tmp = cur.left;
+        cur.left = cur.right;
+        cur.right = tmp;
+    }
+    return root;
+}
+```
+
+#### 复杂度分析
+
++ 时间复杂度：  `O(n)` 。每个节点访问一次。
++ 空间复杂度： `O(log n)` 。最坏情况下复杂度为 `O(log n)` ，需要存储最后一层的全部叶子节点。
+
+
+
+---
 
 ## 💡总结
 
