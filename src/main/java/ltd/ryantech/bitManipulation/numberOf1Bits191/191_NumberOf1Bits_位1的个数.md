@@ -111,9 +111,7 @@ public int hammingWeight(int n) {
 
 
 
-
-
-![n & n - 1 图示](https://assets.ryantech.ltd/abfd6109e7482d70d20cb8fc1d632f90eacf1b5e89dfecb2e523da1bcb562f66-image.png)
+![图示](https://assets.ryantech.ltd/20200624164301.jpg)
 
 
 

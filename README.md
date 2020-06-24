@@ -11,7 +11,9 @@
 
 本人常用的语言为 Java 语言，其他语言鲜有涉猎，如果您对其他语言熟悉，也可以提交其他语言版本的代码PR，在此表示感谢。
 
+如果您在阅读中，发现了图片缺失，链接错误等情况，欢迎提交 issue。谢谢。
 
+---
 
 ## Tag 笔记导航
 
@@ -20,17 +22,25 @@
 + 包含超链接，点击链接可以跳转到题目或者笔记。
 + 标注难度级别。
 
+
+
+---
+
 ### [Array 数组](https://leetcode-cn.com/tag/array/)
 
 |                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    |  难度评级  |          关键词          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :----------------------: |
-| [628 . 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [628 . 三个数的最大乘积](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/628_MaximumProductOfThreeNumbers_%E4%B8%89%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF.md) |  **Easy**  | 分情况讨论；多个数字交换 |
+|   [15 . 三数之和](https://leetcode-cn.com/problems/3sum/)    | [15 . 三数之和](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/15_ThreeSums_%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | **Medium** |       排序；双指针       |
+| [16 . 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | [16 . 最接近的三数之和](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/16_ThreeSumsClosest_%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | **Medium** |       排序；双指针       |
+| [54 . 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/) | [54 . 螺旋矩阵](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/54_SpiralMatrix_%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.md) | **Medium** |         蛇形填数         |
+| [54 . 螺旋矩阵 2](https://leetcode-cn.com/problems/spiral-matrix-ii/) | [54 . 螺旋矩阵 2](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/54_SpiralMatrixii_%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B52.md) | **Medium** |         蛇形填数         |
 | [238 . 除自身以外的数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/) | [238 . 除自身以外的数组的乘积](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/238_ProductOfArrayExceptSelf_%E9%99%A4%E8%87%AA%E8%BA%AB%E4%BB%A5%E5%A4%96%E7%9A%84%E6%95%B0%E7%BB%84%E7%9A%84%E4%B9%98%E7%A7%AF.md) | **Medium** |      前缀积；后缀积      |
+| [628 . 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers/) | [628 . 三个数的最大乘积](https://github.com/dingjianhub/leetcode/blob/master/Notes/Array%20%E6%95%B0%E7%BB%84/628_MaximumProductOfThreeNumbers_%E4%B8%89%E4%B8%AA%E6%95%B0%E7%9A%84%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF.md) |  **Easy**  | 分情况讨论；多个数字交换 |
 |                                                              |                                                              |            |                          |
 
 
 
-
+---
 
 ### [String 字符串](https://leetcode-cn.com/tag/string/) 
 
@@ -46,7 +56,7 @@
 
 
 
-
+---
 
 ### [Two Pointers 双指针](https://leetcode-cn.com/tag/two-pointers/)
 
@@ -60,7 +70,7 @@
 
 
 
-
+---
 
 ### [Tree 树](https://leetcode-cn.com/tag/tree/)
 
@@ -78,86 +88,89 @@
 | [101 . 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [101 . 对称二叉树](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/101_SymmetricTree_%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |  **Easy**  |   DFS；BFS   |
 | [104 . 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [104 . 二叉树的最大深度](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/104_MaximumDepthOfBinaryTree_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) |  **Easy**  |   DFS；BFS   |
 | [112 . 路径总和](https://leetcode-cn.com/problems/path-sum/) | [112 . 路径总和](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/112_PathSum_%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.md) |  **Easy**  |   DFS；BFS   |
+| [226 . 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) | [226 . 翻转二叉树](https://github.com/dingjianhub/leetcode/blob/master/Notes/tree%20%E6%A0%91/226_InvertBinaryTree_%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91.md) |  **Easy**  |     递归     |
 |                                                              |                                                              |            |              |
-|                                                              |                                                              |            |              |
 
 
 
-
+---
 
 ### [Dynamic Programming 动态规划](https://leetcode-cn.com/tag/dynamic-programming/) 
 
-|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    |  难度评级  |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: |
-| [53 . 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [53 . 最大子序和](https://github.com/dingjianhub/leetcode/blob/master/Notes/Dynamic%20Programming%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/53_MaximumSubarray_%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md) |  **Easy**  |
-| [152 . 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) | [152 . 乘积最大子数组](https://github.com/dingjianhub/leetcode/blob/master/Notes/Dynamic%20Programming%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/152_MaximumProductSubarray_%E4%B9%98%E7%A7%AF%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84.md) | **Medium** |
-|                                                              |                                                              |            |
-|                                                              |                                                              |            |
+|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    |  难度评级  | 关键词 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :----: |
+| [53 . 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [53 . 最大子序和](https://github.com/dingjianhub/leetcode/blob/master/Notes/Dynamic%20Programming%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/53_MaximumSubarray_%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md) |  **Easy**  |        |
+| [152 . 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/) | [152 . 乘积最大子数组](https://github.com/dingjianhub/leetcode/blob/master/Notes/Dynamic%20Programming%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/152_MaximumProductSubarray_%E4%B9%98%E7%A7%AF%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84.md) | **Medium** |        |
+|                                                              |                                                              |            |        |
+|                                                              |                                                              |            |        |
 
 
 
-
+---
 
 ### [Graph 图](https://leetcode-cn.com/tag/graph/)
 
-|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-| [997 . 找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) | [997 . 找到小镇的法官](https://github.com/dingjianhub/leetcode/blob/master/Notes/Graph%20%E5%9B%BE/997_FindTheTownJudge_%E6%89%BE%E5%88%B0%E5%B0%8F%E9%95%87%E7%9A%84%E6%B3%95%E5%AE%98.md) | **Easy** |
-|                                                              |                                                              |          |
-|                                                              |                                                              |          |
-|                                                              |                                                              |          |
+|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 | 关键词 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: | :----: |
+| [997 . 找到小镇的法官](https://leetcode-cn.com/problems/find-the-town-judge/) | [997 . 找到小镇的法官](https://github.com/dingjianhub/leetcode/blob/master/Notes/Graph%20%E5%9B%BE/997_FindTheTownJudge_%E6%89%BE%E5%88%B0%E5%B0%8F%E9%95%87%E7%9A%84%E6%B3%95%E5%AE%98.md) | **Easy** |        |
+|                                                              |                                                              |          |        |
+|                                                              |                                                              |          |        |
+|                                                              |                                                              |          |        |
 
 
 
-
+---
 
 ### [HashMap 哈希表](https://leetcode-cn.com/tag/hash-table/)
 
-|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    |  难度评级  |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: |
-| [347 . 前 K 高频元素](https://leetcode.com/problems/top-k-frequent-elements/) | [347 . 前 K 高频元素](https://github.com/dingjianhub/leetcode/blob/master/Notes/HashMap%20%E5%93%88%E5%B8%8C%E8%A1%A8/347_TopKFrequentElements_%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) | **Medium** |
-| [451 . 根据字符出现的频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | [451 . 根据字符出现的频率排序](https://github.com/dingjianhub/leetcode/blob/master/Notes/HashMap%20%E5%93%88%E5%B8%8C%E8%A1%A8/451_SortCharactersByFrequency_%E6%A0%B9%E6%8D%AE%E5%AD%97%E7%AC%A6%E5%87%BA%E7%8E%B0%E7%9A%84%E9%A2%91%E7%8E%87%E6%8E%92%E5%BA%8F.md) | **Medium** |
-|                                                              |                                                              |            |
-|                                                              |                                                              |            |
+|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    |  难度评级  | 关键词 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :--------: | :----: |
+| [347 . 前 K 高频元素](https://leetcode.com/problems/top-k-frequent-elements/) | [347 . 前 K 高频元素](https://github.com/dingjianhub/leetcode/blob/master/Notes/HashMap%20%E5%93%88%E5%B8%8C%E8%A1%A8/347_TopKFrequentElements_%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) | **Medium** |        |
+| [451 . 根据字符出现的频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/) | [451 . 根据字符出现的频率排序](https://github.com/dingjianhub/leetcode/blob/master/Notes/HashMap%20%E5%93%88%E5%B8%8C%E8%A1%A8/451_SortCharactersByFrequency_%E6%A0%B9%E6%8D%AE%E5%AD%97%E7%AC%A6%E5%87%BA%E7%8E%B0%E7%9A%84%E9%A2%91%E7%8E%87%E6%8E%92%E5%BA%8F.md) | **Medium** |        |
+|                                                              |                                                              |            |        |
+|                                                              |                                                              |            |        |
 
 
 
-
+---
 
 ### [Math 数学](https://leetcode-cn.com/tag/math/)
 
-| 题目名(点击跳转题目) | 笔记链接(点击跳转链接) |  难度评级  |
-| :------------------: | :--------------------: | :--------: |
-|                      |                        |  **Easy**  |
-|                      |                        | **Medium** |
-|                      |                        |            |
-|                      |                        |            |
+| 题目名(点击跳转题目) | 笔记链接(点击跳转链接) |  难度评级  | 关键词 |
+| :------------------: | :--------------------: | :--------: | :----: |
+|                      |                        |  **Easy**  |        |
+|                      |                        | **Medium** |        |
+|                      |                        |            |        |
+|                      |                        |            |        |
 
 
 
-
+---
 
 ### [Greedy 贪心](https://leetcode-cn.com/tag/greedy/)
 
-|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-| [1029 . 两地调度之优化算法](https://leetcode-cn.com/problems/two-city-scheduling/) | [1029 . 两地调度之优化算法](https://github.com/dingjianhub/leetcode/blob/master/Notes/Greedy%20%E8%B4%AA%E5%BF%83/1029_TwoCityScheduling_%E4%B8%A4%E5%9C%B0%E8%B0%83%E5%BA%A6%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95.md) | **Easy** |
-|                                                              |                                                              |          |
-|                                                              |                                                              |          |
-|                                                              |                                                              |          |
+|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 | 关键词 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: | :----: |
+| [1029 . 两地调度之优化算法](https://leetcode-cn.com/problems/two-city-scheduling/) | [1029 . 两地调度之优化算法](https://github.com/dingjianhub/leetcode/blob/master/Notes/Greedy%20%E8%B4%AA%E5%BF%83/1029_TwoCityScheduling_%E4%B8%A4%E5%9C%B0%E8%B0%83%E5%BA%A6%E4%B9%8B%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95.md) | **Easy** |        |
+|                                                              |                                                              |          |        |
+|                                                              |                                                              |          |        |
+|                                                              |                                                              |          |        |
 
 
 
-
+---
 
 ### [Bit Manipulation 位操作](https://leetcode.com/tag/bit-manipulation/)
 
-|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-| [476 . 数字的补数](https://leetcode-cn.com/problems/number-complement/) | [476 . 数字的补数](https://github.com/dingjianhub/leetcode/blob/master/Notes/Bit%20Manipulation%20%E4%BD%8D%E6%93%8D%E4%BD%9C/476_NumberComplement_%E6%95%B0%E5%AD%97%E7%9A%84%E8%A1%A5%E6%95%B0.md) | **Easy** |
-|                                                              |                                                              |          |
-|                                                              |                                                              |          |
-|                                                              |                                                              |          |
+|                     题目名(点击跳转题目)                     |                    笔记链接(点击跳转链接)                    | 难度评级 | 关键词 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :------: | :----: |
+| [476 . 数字的补数](https://leetcode-cn.com/problems/number-complement/) | [476 . 数字的补数](https://github.com/dingjianhub/leetcode/blob/master/Notes/Bit%20Manipulation%20%E4%BD%8D%E6%93%8D%E4%BD%9C/476_NumberComplement_%E6%95%B0%E5%AD%97%E7%9A%84%E8%A1%A5%E6%95%B0.md) | **Easy** |        |
+| [191 . 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [191 . 位1的个数](https://github.com/dingjianhub/leetcode/blob/master/Notes/Bit%20Manipulation%20%E4%BD%8D%E6%93%8D%E4%BD%9C/191_NumberOf1Bits_%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) | **Easy** | 位移动 |
+| [231 . 2的幂](https://leetcode-cn.com/problems/power-of-two/) | [231 . 2的幂](https://github.com/dingjianhub/leetcode/blob/master/Notes/Bit%20Manipulation%20%E4%BD%8D%E6%93%8D%E4%BD%9C/231_PowerOfTwo_2%E7%9A%84%E5%B9%82.md) | **Easy** |        |
+| [461 . 汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [461 . 汉明距离](https://github.com/dingjianhub/leetcode/blob/master/Notes/Bit%20Manipulation%20%E4%BD%8D%E6%93%8D%E4%BD%9C/461_HammingDistance_%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB.md) | **Easy** |        |
+| [477 . 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/) | [477 . 汉明距离总和](https://github.com/dingjianhub/leetcode/blob/master/Notes/Bit%20Manipulation%20%E4%BD%8D%E6%93%8D%E4%BD%9C/477_TotalHammingDistance_%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB%E6%80%BB%E5%92%8C.md) | **Easy** |        |
+|                                                              |                                                              |          |        |
+|                                                              |                                                              |          |        |
 
 
 
@@ -165,7 +178,7 @@
 
 
 
-
+---
 
 ## 优秀个人题解 站点 List
 

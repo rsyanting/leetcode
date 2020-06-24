@@ -9,35 +9,39 @@ package ltd.ryantech.binarySearch.searchInsert35;
  * @leetcode_US_url // https://leetcode.com/problems/search-insert-position/
  * @hard_level Easy
  * @tag Binary Search // https://leetcode-cn.com/tag/binary-search/
- * @create 2020/06/21 15:10
+ * @create 2020/06/24 21:27
  **/
 
-public class Solution1 {
-    // 经典 “三分式” 两分搜索
+public class Solution3 {
+    // TODO 有 bug 版本
+    // “排除法” 版 两分搜索
     public int searchInsert(int[] nums, int target) {
+        // 特判
+        if (nums.length == 0) {
+            return 0;
+        }
+
         int left = 0;
-        int right = nums.length - 1;
-        while (left <= right) {
+        int right = nums.length;
+        // 循环结束时有 left == right
+        while (left < right) {
             int mid = left + (right - left) / 2;
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] < target) {
+            // 严格小于 target 的元素一定不是解
+            if (nums[mid] < target) {
+                // 下一轮搜索区间是 [mid + 1,right]
                 left = mid + 1;
             } else {
-                right = mid - 1;
+                right = mid;
             }
         }
-        // 此时完成了全部元素的遍历，没有找到元素，需要插入元素
-        // 有 left > right,程序希望继续惯性查找下去，但是已经不满足循环，全部查找一次了
-        // 那么此时的 left 就应该是 target 本来应该在的位置了
         return left;
     }
 
     public static void main(String[] args) {
         int[] nums = {1, 3, 5, 6};
-        System.out.println(new Solution1().searchInsert(nums, 5));
+        System.out.println(new Solution3().searchInsert(nums, 5));
 
         int[] nums1 = {1, 3, 5, 6};
-        System.out.println(new Solution1().searchInsert(nums1, 2));
+        System.out.println(new Solution3().searchInsert(nums1, 2));
     }
 }

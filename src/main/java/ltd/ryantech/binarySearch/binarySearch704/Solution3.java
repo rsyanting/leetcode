@@ -9,36 +9,35 @@ package ltd.ryantech.binarySearch.binarySearch704;
  * @leetcode_US_url // https://leetcode.com/problems/binary-search/
  * @hard_level Easy
  * @tag Binary Search // https://leetcode-cn.com/tag/binary-search/
- * @create 2020/06/21 14:53
+ * @create 2020/06/24 21:51
  **/
 
-public class Solution1 {
-    // “三分式” 两分搜索
+public class Solution3 {
+    // “两分” 式 二分搜索
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2; // 下取整
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] < target) {
-                // mid 和 mid 左边的元素都小于 target
-                // 下一轮搜索的范围在 [mid + 1,right]
-                left = mid + 1;
-            } else {
-                // mid 和 mid 右边的元素都超出 target
+        while (left < right) {
+            int mid = left + (right - left + 1) / 2; // 上取整
+            if (nums[mid] > target) {
+                // mid 或者 mid 右边的元素严格大于 target
                 // 下一轮搜索的范围在 [left,mid - 1]
                 right = mid - 1;
+            } else {
+                // mid 和 mid 左边的元素可能小于等于 target
+                // 下一轮搜索的范围在 [left,mid]
+                left = mid; // 此种写法下，使用上取整
             }
         }
-        return -1;
+        // 结束循环后有 left = right
+        return (nums[left] == target ? left : -1);
     }
 
     public static void main(String[] args) {
         int[] nums = {-1, 0, 3, 5, 9, 12};
-        System.out.println(new Solution1().search(nums, 9));
+        System.out.println(new Solution3().search(nums, 9));
 
         int[] nums1 = {-1, 0, 3, 5, 9, 12};
-        System.out.println(new Solution1().search(nums1, 2));
+        System.out.println(new Solution3().search(nums1, 2));
     }
 }
