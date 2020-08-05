@@ -13,8 +13,8 @@ package ltd.ryantech.binarySearch.searchInsert35;
  **/
 
 public class Solution3 {
-    // TODO 有 bug 版本
     // “排除法” 版 两分搜索
+    // 修改特判的做法
     public int searchInsert(int[] nums, int target) {
         // 特判
         if (nums.length == 0) {
