@@ -128,9 +128,74 @@ public boolean isValidBST(TreeNode root) {
 + 时间复杂度：O(n)。二叉树中每个节点最多被访问 1 次。
 + 空间复杂度：O(n)。stack 中最多存储 n 个节点。（此时全部为左子树。退化成链表。）
 
+---
+
+### 递归算法
+
+要解决这道题首先我们要了解二叉搜索树有什么性质可以给我们利用，由题目给出的信息我们可以知道：**如果该二叉树的左子树不为空，则左子树上所有节点的值均小于它的根节点的值； 若它的右子树不空，则右子树上所有节点的值均大于它的根节点的值；它的左右子树也为二叉搜索树。**
+
+这启示我们设计一个递归函数 `helper(root, lower, upper)` 来递归判断，函数表示考虑以 `root` 为根的子树，判断子树中所有节点的值是否都在 `(l,r)` 的范围内（注意是开区间）。如果 `root` 节点的值 `val` 不在 `(l,r)` 的范围内说明不满足条件直接返回，否则我们要继续递归调用检查它的左右子树是否满足，如果都满足才说明这是一棵二叉搜索树。
+
+那么根据二叉搜索树的性质，在递归调用左子树时，我们需要把上界 `upper` 改为 `root.val`，即调用 `helper(root.left, lower, root.val)`，因为左子树里所有节点的值均小于它的根节点的值。同理递归调用右子树时，我们需要把下界 `lower` 改为 `root.val`，即调用 `helper(root.right, root.val, upper)`。
+
+
+
+为什么需要加入上下界呢？
+
+![假的 BST 的情况](https://assets.ryantech.ltd/20200807145447.png)
+
+对于上面给定的图片中的情况，如果没有带入上下界，就会遗漏掉 BST 的定义中的某些定义，造成错误。错误的代码如下：
+
+```java
+boolean isValidBST(TreeNode root) {
+    if (root == null) return true;
+    if (root.left != null && root.val <= root.left.val) return false;
+    if (root.right != null && root.val >= root.right.val) return false;
+
+    return isValidBST(root.left)
+        && isValidBST(root.right);
+}
+```
+
+
+
+#### 正确的代码
+
+```java
+// 逐个子树判断上下界的方法
+public boolean helper(TreeNode node, Integer lower, Integer upper) {
+    if (node == null) return true;
+
+    int val = node.val;
+    // 根据 BST 的定义：
+    // 节点的左子树只包含小于当前节点的数。
+    // 节点的右子树只包含大于当前节点的数。
+    // 如果不符合，则返回 false
+    if (lower != null && val <= lower) return false;
+    if (upper != null && val >= upper) return false;
+
+    // 递归的进行判断
+    if (!helper(node.left, lower, val)) return false; // 首先判断左子树
+    return helper(node.right, val, upper); // 再判断右子树
+}
+
+public boolean isValidBST(TreeNode root) {
+    return helper(root, null, null);
+}
+```
+
+
+
+#### 复杂度分析
+
++ 时间复杂度：`O(n)`。二叉树中每个节点最多被访问 `1` 次。
++ 空间复杂度：`O(n)`。树退化成链表。
+
+---
+
 ## 💡总结：
 
 二叉树的遍历，是二叉树题目的基础。
 
-其 2 种方式，分别为递归形式 和 非递归形式（使用 stack 来辅助），是非常重要的基础知识。
+其 2 种方式，分别为 **递归形式** 和 **非递归形式**（使用 stack 来辅助），是非常重要的基础知识。
 

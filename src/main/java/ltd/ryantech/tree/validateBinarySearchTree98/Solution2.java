@@ -8,7 +8,7 @@ import java.util.Stack;
  * @author jerry
  * @program leetcode
  * @package_name ltd.ryantech.tree.validateBinarySearchTree98
- * @description 验证二叉搜索树
+ * @description 98. 验证二叉搜索树
  * @leetcode_CN_url // https://leetcode-cn.com/problems/validate-binary-search-tree/
  * @leetcode_US_url // https://leetcode.com/problems/validate-binary-search-tree/
  * @hard_level Medium
@@ -17,6 +17,7 @@ import java.util.Stack;
  **/
 
 public class Solution2 {
+    // 中序遍历 迭代法
     public boolean isValidBST(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         long inorderValue = Long.MIN_VALUE;
