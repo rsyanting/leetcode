@@ -23,7 +23,7 @@ public class Solution1 {
         // num2 逐位与 num1 相乘
         for (int i = num2.length() - 1; i >= 0; i--) {
             int carry = 0;
-            // 保存 num2 第i位数字与 num1 相乘的结果
+            // 保存 num2 第 i 位数字与 num1 相乘的结果
             StringBuilder temp = new StringBuilder();
             // 补 0
             for (int j = 0; j < num2.length() - 1 - i; j++) {
