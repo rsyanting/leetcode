@@ -14,13 +14,13 @@ public class TSynchronized implements Runnable {
 
     public void increase() {
         i++;
-//        System.out.println(i);
+        System.out.println(Thread.currentThread().getName() + " : " + i);
     }
 
 
     @Override
     public void run() {
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 0; i < 1000; i++) {
             increase();
         }
     }
@@ -31,7 +31,7 @@ public class TSynchronized implements Runnable {
         Thread aThread = new Thread(tSynchronized);
         Thread bThread = new Thread(tSynchronized);
 
-        System.out.println("i = " + i);
+//        System.out.println("i = " + i);
         aThread.start();
         bThread.start();
         System.out.println("i = " + i);
