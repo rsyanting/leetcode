@@ -1,5 +1,10 @@
 package ltd.ryantech.twoPointer.reverseString344;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 /**
  * @author jerry
  * @program leetcode
@@ -26,7 +31,19 @@ public class Solution1 {
         }
     }
 
+    public Object[] reverseStringUsingLib(char[] s) {
+        List<Character> res = new ArrayList<>();
+        for (char c : s) {
+            res.add(c);
+        }
+        Collections.reverse(res);
+        return res.toArray();
+    }
+
     public static void main(String[] args) {
         char[] s = {'h', 'e', 'l', 'l', 'o'};
+        Solution1 solution1 = new Solution1();
+        solution1.reverseString(s);
+        System.out.println(Arrays.toString(s));
     }
 }

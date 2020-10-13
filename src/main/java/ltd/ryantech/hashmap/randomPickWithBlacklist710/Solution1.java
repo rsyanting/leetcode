@@ -6,7 +6,11 @@ import java.util.*;
  * @author jerry
  * @program leetcode
  * @package_name ltd.ryantech.hashmap.randomPickWithBlacklist710
- * @description
+ * @description 710. 黑名单中的随机数
+ * @leetcode_CN_url // https://leetcode-cn.com/problems/random-pick-with-blacklist/
+ * @leetcode_US_url // https://leetcode.com/problems/random-pick-with-blacklist/
+ * @hard_level Hard
+ * @tag HashMap // https://leetcode-cn.com/tag/hash-table/
  * @create 2020/09/29 16:08
  **/
 
