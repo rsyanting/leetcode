@@ -12,6 +12,7 @@ package ltd.ryantech.stack.largestRectangleInHistogram84;
  **/
 
 public class Solution1 {
+    // 暴力解法
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
         if (len == 0) {
