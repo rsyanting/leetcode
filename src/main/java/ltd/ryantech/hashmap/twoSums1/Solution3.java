@@ -1,5 +1,7 @@
 package ltd.ryantech.hashmap.twoSums1;
 
+import java.util.Arrays;
+
 /**
  * @author jerry
  * @program leetcode
@@ -9,20 +11,29 @@ package ltd.ryantech.hashmap.twoSums1;
  * @leetcode_US_url // https://leetcode.com/problems/two-sum/
  * @hard_level Easy
  * @tag HashMap // https://leetcode-cn.com/tag/hash-table/
- * @create 2020/04/25 23:31
+ * @create 2020/10/16 16:42
  **/
 
-public class Solution2 {
+public class Solution3 {
+    // 在不考虑 index
+    // 仅仅返回 元素值 的情况下
     public static int[] twoSum(int[] nums, long target) {
         int[] ans = new int[2];
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    ans[0] = i;
-                    ans[1] = j;
-                }
+        Arrays.sort(nums);
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            if (nums[left] + nums[right] < target) {
+                left++;
+            } else if (nums[left] + nums[right] > target) {
+                right--;
+            } else {
+                ans[0] = left;
+                ans[1] = right;
+                return ans;
             }
         }
+
         return ans;
     }
 

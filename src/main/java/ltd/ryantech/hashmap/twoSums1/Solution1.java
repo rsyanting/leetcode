@@ -6,7 +6,11 @@ import java.util.HashMap;
  * @author jerry
  * @program leetcode
  * @package_name ltd.ryantech.hashmap.twoSums1
- * @description
+ * @description 1. 两数之和
+ * @leetcode_CN_url // https://leetcode-cn.com/problems/two-sum/
+ * @leetcode_US_url // https://leetcode.com/problems/two-sum/
+ * @hard_level Easy
+ * @tag HashMap // https://leetcode-cn.com/tag/hash-table/
  * @create 2020/04/25 23:30
  **/
 

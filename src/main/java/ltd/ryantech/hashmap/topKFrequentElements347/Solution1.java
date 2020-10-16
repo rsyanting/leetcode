@@ -6,7 +6,7 @@ import java.util.*;
  * @author jerry
  * @program leetcode
  * @package_name ltd.ryantech.hashmap.topKFrequentElements347
- * @description 前 K 个高频元素
+ * @description 347. 前 K 个高频元素
  * @leetcode_CN_url // https://leetcode-cn.com/problems/top-k-frequent-elements/
  * @leetcode_US_url // https://leetcode.com/problems/top-k-frequent-elements/
  * @hard_level Medium

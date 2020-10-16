@@ -1,10 +1,6 @@
-
-
 # _ _
 
 ## 📌题目详情
-
-[leetcode 题目地址](https://leetcode.com/problems/ransom-note/)
 
 [leetcode-cn 题目地址](https://leetcode-cn.com/problems/ransom-note/)
 

@@ -11,35 +11,35 @@ import java.util.Deque;
  * @leetcode_CN_url // https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
  * @hard_level Easy
  * @tag Stack // https://leetcode-cn.com/tag/stack/
- * @create 2020/10/14 23:12
+ * @create 2020/10/16 22:07
  **/
 
-public class Solution1 {
-    // 使用 栈 辅助操作
+public class Solution2 {
+    // 使用 队列 辅助操作
     public String removeDuplicates(String S) {
-        Deque<Character> stack = new ArrayDeque<>();
+        Deque<Character> deque = new ArrayDeque<>();
 
         int i = 0;
         int len = S.length();
         StringBuilder sb = new StringBuilder();
 
         for (i = 0; i < len; i++) {
-            if (stack.isEmpty() || stack.peekLast() != S.charAt(i)) {
-                stack.offerLast(S.charAt(i));
+            if (deque.isEmpty() || deque.peekLast() != S.charAt(i)) {
+                deque.offerLast(S.charAt(i));
             } else {
-                stack.pollLast();
+                deque.pollLast();
             }
         }
 
-        while (!stack.isEmpty()) {
-            sb.append(stack.pollLast());
+        while (!deque.isEmpty()) {
+            sb.append(deque.pollFirst()); // 出队，最后不需要转置
         }
-        // 转置，获得正序
-        return sb.reverse().toString();
+
+        return sb.toString();
     }
 
     public static void main(String[] args) {
         String s = new String("abbaca");
-        System.out.println(new Solution1().removeDuplicates(s));
+        System.out.println(new Solution2().removeDuplicates(s));
     }
 }
