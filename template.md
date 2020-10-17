@@ -26,6 +26,7 @@
 + **[深度优先搜索](https://leetcode-cn.com/tag/depth-first-search/)**
 + **[广度优先搜索](https://leetcode-cn.com/tag/breadth-first-search/)**
 + **[位运算](https://leetcode-cn.com/tag/bit-manipulation/)**
++ [回溯](https://leetcode-cn.com/tag/backtracking/)
 
 ---
 
