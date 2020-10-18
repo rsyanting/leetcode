@@ -14,6 +14,8 @@ import java.util.*;
  **/
 
 public class Solution1 {
+    // DFS 剪枝
+    // 无法解决题目，时间复杂度过高
     public List<List<Integer>> combinationSum4(int[] nums, int target) {
         List<List<Integer>> res = new ArrayList<>();
 
@@ -22,22 +24,31 @@ public class Solution1 {
         }
 
         Arrays.sort(nums);
+
+        if (nums[0] > target) {
+            return res;
+        }
+
         int len = nums.length;
         Deque<Integer> path = new ArrayDeque<>();
-        dfs(nums, len, 0, target, path, res);
+        dfs(nums, len, target, path, res);
 
         return res;
     }
 
-    private void dfs(int[] nums, int len, int begin, int target, Deque<Integer> path, List<List<Integer>> res) {
+    private void dfs(int[] nums, int len, int target, Deque<Integer> path, List<List<Integer>> res) {
         if (target == 0) {
             res.add(new ArrayList<>(path));
             return;
         }
 
         for (int i = 0; i < len; i++) {
+            if (target - nums[i] < 0) {
+                break;
+            }
+
             path.addLast(nums[i]);
-            dfs(nums, len, i + 1, target - nums[i], path, res);
+            dfs(nums, len, target - nums[i], path, res);
             path.removeLast();
         }
     }
@@ -48,5 +59,9 @@ public class Solution1 {
         for (List<Integer> list : lists) {
             System.out.println(list);
         }
+
+        int[] nums1 = {1, 2, 4};
+        List<List<Integer>> lists1 = new Solution1().combinationSum4(nums1, 32);
+        System.out.println(lists1.size());
     }
 }
